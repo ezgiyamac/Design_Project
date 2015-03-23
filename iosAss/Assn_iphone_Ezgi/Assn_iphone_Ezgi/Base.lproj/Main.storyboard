@@ -46,6 +46,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ceb3f7c05fe311dfb72d000b2f3ed30f.jpg" id="QuY-Hi-ejB">
+                                <rect key="frame" x="37" y="311" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -55,6 +59,9 @@
             <point key="canvasLocation" x="74.666666666666671" y="128.74666666666667"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ceb3f7c05fe311dfb72d000b2f3ed30f.jpg" width="192" height="171"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
