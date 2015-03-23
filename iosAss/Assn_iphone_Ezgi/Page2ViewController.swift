@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Page2ViewController: UIViewController {
+class Page2ViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +21,25 @@ class Page2ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    /*
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        
+        return 1
+    }
+    
+    func tableView(tableView: UITableView!, cellForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCell! {
+        var cell = tableView.dequeueReusableCellWithIdentifier("MyCell") as UITableViewCell
+        
+        //cell.textLabel
+        
+        return cell
+    }
+    */
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
