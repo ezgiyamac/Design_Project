@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B9C8EEA1AC062480057CA7F /* ceb3f7c05fe311dfb72d000b2f3ed30f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B9C8EE91AC062480057CA7F /* ceb3f7c05fe311dfb72d000b2f3ed30f.jpg */; };
+		3B9C8EEC1AC065840057CA7F /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9C8EEB1AC065840057CA7F /* Page2ViewController.swift */; };
 		3BA0BA5A1AC04A390085138F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0BA591AC04A390085138F /* AppDelegate.swift */; };
 		3BA0BA5C1AC04A390085138F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0BA5B1AC04A390085138F /* ViewController.swift */; };
 		3BA0BA5F1AC04A390085138F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0BA5D1AC04A390085138F /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		3B9C8EE91AC062480057CA7F /* ceb3f7c05fe311dfb72d000b2f3ed30f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceb3f7c05fe311dfb72d000b2f3ed30f.jpg; sourceTree = "<group>"; };
+		3B9C8EEB1AC065840057CA7F /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page2ViewController.swift; path = ../Page2ViewController.swift; sourceTree = "<group>"; };
 		3BA0BA541AC04A390085138F /* Assn_iphone_Ezgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assn_iphone_Ezgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA0BA581AC04A390085138F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA0BA591AC04A390085138F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				3BA0BA591AC04A390085138F /* AppDelegate.swift */,
 				3BA0BA5B1AC04A390085138F /* ViewController.swift */,
+				3B9C8EEB1AC065840057CA7F /* Page2ViewController.swift */,
 				3BA0BA5D1AC04A390085138F /* Main.storyboard */,
 				3BA0BA601AC04A390085138F /* Images.xcassets */,
 				3BA0BA621AC04A390085138F /* LaunchScreen.xib */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BA0BA5C1AC04A390085138F /* ViewController.swift in Sources */,
+				3B9C8EEC1AC065840057CA7F /* Page2ViewController.swift in Sources */,
 				3BA0BA5A1AC04A390085138F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

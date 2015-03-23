@@ -58,6 +58,20 @@
             </objects>
             <point key="canvasLocation" x="74.666666666666671" y="128.74666666666667"/>
         </scene>
+        <!--Page2 View Controller-->
+        <scene sceneID="Bgu-v7-aic">
+            <objects>
+                <viewController id="GNe-4P-ddE" customClass="Page2ViewController" customModule="Assn_iphone_Ezgi" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RxA-cb-B2G">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uwH-VG-6NZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="434" y="128"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ceb3f7c05fe311dfb72d000b2f3ed30f.jpg" width="192" height="171"/>
