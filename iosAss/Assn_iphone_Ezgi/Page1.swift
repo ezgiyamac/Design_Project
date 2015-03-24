@@ -33,7 +33,9 @@ class Page1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        var My_Alert:UIAlertView = UIAlertView(title: "Usage of AlertView", message: "Created by Ezgi Yamac", delegate: self, cancelButtonTitle: "OK")
+        My_Alert.show()
+        
     }
 
     override func didReceiveMemoryWarning() {
