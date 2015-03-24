@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B9A9F251AC1D7FA00787CE1 /* Page1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		3B9A9F251AC1D7FA00787CE1 /* Page1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page1.swift; path = ../Page1.swift; sourceTree = "<group>"; };
 		3B9C8EE91AC062480057CA7F /* ceb3f7c05fe311dfb72d000b2f3ed30f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceb3f7c05fe311dfb72d000b2f3ed30f.jpg; sourceTree = "<group>"; };
 		3BA0BA541AC04A390085138F /* Assn_iphone_Ezgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assn_iphone_Ezgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BA0BA581AC04A390085138F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,7 +63,6 @@
 		3BA0BA4B1AC04A390085138F = {
 			isa = PBXGroup;
 			children = (
-				3B9A9F251AC1D7FA00787CE1 /* Page1.swift */,
 				3BA0BA561AC04A390085138F /* Assn_iphone_Ezgi */,
 				3BA0BA6C1AC04A3A0085138F /* Assn_iphone_EzgiTests */,
 				3BA0BA551AC04A390085138F /* Products */,
@@ -84,6 +83,7 @@
 			children = (
 				3BA0BA591AC04A390085138F /* AppDelegate.swift */,
 				3BA0BA5B1AC04A390085138F /* ViewController.swift */,
+				3B9A9F251AC1D7FA00787CE1 /* Page1.swift */,
 				3BA0BA5D1AC04A390085138F /* Main.storyboard */,
 				3BA0BA601AC04A390085138F /* Images.xcassets */,
 				3BA0BA621AC04A390085138F /* LaunchScreen.xib */,

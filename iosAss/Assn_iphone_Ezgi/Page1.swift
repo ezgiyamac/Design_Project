@@ -24,6 +24,9 @@ class Page1: UIViewController {
     @IBAction func When_Pressed_Btn1(sender: AnyObject) {
         
         Lbl1.text = Txt1.text
+        Lbl1.textColor = UIColor.blueColor()
+        //Lbl1.textAlignment = NSTextAlignment.Center
+        Lbl1.backgroundColor = UIColor.yellowColor()
         
         Count++
         Lbl2.text = String(Count)
