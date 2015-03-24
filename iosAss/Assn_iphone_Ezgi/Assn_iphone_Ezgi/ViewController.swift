@@ -10,9 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var MyPhoto: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        MyPhoto.image = UIImage(named: "Resim")
     }
 
     override func didReceiveMemoryWarning() {
