@@ -112,10 +112,10 @@
             </objects>
             <point key="canvasLocation" x="1713" y="1591"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab1-->
         <scene sceneID="onj-41-pdm">
             <objects>
-                <viewController id="AiM-vD-VUs" sceneMemberID="viewController">
+                <viewController id="AiM-vD-VUs" customClass="Tab1" customModule="Assn_iphone_Ezgi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5kK-NK-cab">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -127,10 +127,37 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" id="22r-dc-1CO">
+                                <rect key="frame" x="150" y="183" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iry-P6-87H">
+                                <rect key="frame" x="119" y="246" width="83" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="START">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="My_Start_Action:" destination="AiM-vD-VUs" eventType="touchUpInside" id="iaC-Ha-dJc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gTE-jq-nFf">
+                                <rect key="frame" x="119" y="328" width="83" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="STOP">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="My_Stop_Action:" destination="AiM-vD-VUs" eventType="touchUpInside" id="tyJ-rK-fUW"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="recents" id="y2z-WX-kcm"/>
+                    <connections>
+                        <outlet property="My_Activity_indicator" destination="22r-dc-1CO" id="ZTI-7I-RmO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fHu-cb-75V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
