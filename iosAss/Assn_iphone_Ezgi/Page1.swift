@@ -14,6 +14,36 @@ class Page1: UIViewController {
     
     @IBOutlet weak var Lbl2: UILabel!
     
+    @IBOutlet weak var Lbl3: UILabel!
+    
+    @IBOutlet weak var My_Segment: UISegmentedControl!
+    
+    @IBAction func MySegmentAction(sender: AnyObject) {
+        
+        switch My_Segment.selectedSegmentIndex
+        {
+        case 0:
+            Lbl3.text = "Case 1"
+            break
+        case 1:
+            Lbl3.text = "Case 2"
+            break
+        case 2:
+            Lbl3.text = "Case 3"
+            break
+        case 3:
+            Lbl3.text = "Case 4"
+            break
+        case 4:
+            Lbl3.text = "Case 5"
+            break
+        default:
+            break
+        }
+        
+    }
+    
+    
     @IBOutlet weak var Txt1: UITextField!
     
     @IBOutlet weak var Btn1: UIButton!
