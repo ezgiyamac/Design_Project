@@ -64,10 +64,10 @@
             </objects>
             <point key="canvasLocation" x="899" y="145"/>
         </scene>
-        <!--View Controller-->
+        <!--Tab2-->
         <scene sceneID="CML-xP-MA9">
             <objects>
-                <viewController id="JJN-rW-8XW" sceneMemberID="viewController">
+                <viewController id="JJN-rW-8XW" customClass="Tab2" customModule="Assn_iphone_Ezgi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7IU-h6-XyK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,10 +79,25 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please wait until page loading" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="HfC-l5-yfq">
+                                <rect key="frame" x="0.0" y="130" width="320" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <webView contentMode="scaleToFill" id="9wE-f9-Wyg">
+                                <rect key="frame" x="16" y="162" width="320" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="m6o-x7-mlF"/>
+                    <connections>
+                        <outlet property="My_WebView" destination="9wE-f9-Wyg" id="gvJ-uC-qvb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yND-8a-j4l" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
