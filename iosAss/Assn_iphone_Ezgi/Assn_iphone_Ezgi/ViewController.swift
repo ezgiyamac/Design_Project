@@ -8,13 +8,40 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
     @IBOutlet weak var MyPhoto: UIImageView!
     
+    @IBOutlet weak var My_username: UITextField!
+    @IBOutlet weak var My_password: UITextField!
+    
+    @IBAction func My_Login_Clicked(sender: AnyObject)
+    {
+        if ((My_username.text=="ezgi") && (My_password=="yam"))
+        {
+            //////
+        }
+    }
+    
+    @IBOutlet weak var My_Lbl: UILabel!
+    
+
+    @IBAction func My_switch_changed(sender: UISwitch)
+    {
+        if sender.on
+        {
+            My_Lbl.text = "1"
+        }
+        else
+        {
+            My_Lbl.text = "0"
+        }
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        MyPhoto.image = UIImage(named: "Resim")
+        MyPhoto.image = UIImage(named: "Resim-3")
     }
 
     override func didReceiveMemoryWarning() {
