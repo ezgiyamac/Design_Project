@@ -17,9 +17,9 @@ class ViewController: UITableViewController {
     
     @IBAction func My_Login_Clicked(sender: AnyObject)
     {
-        if ((My_username.text=="ezgi") && (My_password=="yam"))
+        if ((My_username.text=="ezgi") && (My_password.text=="yam"))
         {
-            //////
+            performSegueWithIdentifier("screen3", sender: self)
         }
     }
     
