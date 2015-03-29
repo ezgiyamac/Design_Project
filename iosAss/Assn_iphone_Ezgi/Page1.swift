@@ -66,8 +66,8 @@ class Page1: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        var My_Alert:UIAlertView = UIAlertView(title: "Usage of AlertView", message: "Created by Ezgi Yamac", delegate: self, cancelButtonTitle: "OK")
-        My_Alert.show()
+        //var My_Alert:UIAlertView = UIAlertView(title: "Usage of AlertView", message: "Created by Ezgi Yamac", delegate: self, cancelButtonTitle: "OK")
+        //My_Alert.show()
         
     }
 

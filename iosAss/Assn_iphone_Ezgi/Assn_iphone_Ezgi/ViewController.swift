@@ -21,6 +21,12 @@ class ViewController: UITableViewController {
         {
             performSegueWithIdentifier("screen3", sender: self)
         }
+        else
+        {
+            var My_Alert:UIAlertView = UIAlertView(title: "Invalid Password", message: "Your username or password is incorrect", delegate: self, cancelButtonTitle: "OK")
+            My_Alert.show()
+
+        }
     }
     
     @IBOutlet weak var My_Lbl: UILabel!
