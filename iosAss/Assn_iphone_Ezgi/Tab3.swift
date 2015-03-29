@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Page1: UIViewController {
+class Tab3: UIViewController {
 
     @IBOutlet weak var Lbl1: UILabel!
     

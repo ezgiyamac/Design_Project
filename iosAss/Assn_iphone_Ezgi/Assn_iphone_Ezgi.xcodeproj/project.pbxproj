@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B9A9F261AC1D7FA00787CE1 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A9F251AC1D7FA00787CE1 /* Page1.swift */; };
+		3B9A9F261AC1D7FA00787CE1 /* Tab3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9A9F251AC1D7FA00787CE1 /* Tab3.swift */; };
 		3B9BB3981AC23E5400F02D65 /* Tab1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BB3971AC23E5400F02D65 /* Tab1.swift */; };
 		3B9BB39A1AC243E800F02D65 /* Tab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9BB3991AC243E800F02D65 /* Tab2.swift */; };
 		3BA0BA5A1AC04A390085138F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0BA591AC04A390085138F /* AppDelegate.swift */; };
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B9A9F251AC1D7FA00787CE1 /* Page1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Page1.swift; path = ../Page1.swift; sourceTree = "<group>"; };
+		3B9A9F251AC1D7FA00787CE1 /* Tab3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab3.swift; path = ../Tab3.swift; sourceTree = "<group>"; };
 		3B9BB3971AC23E5400F02D65 /* Tab1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab1.swift; path = ../Tab1.swift; sourceTree = "<group>"; };
 		3B9BB3991AC243E800F02D65 /* Tab2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tab2.swift; path = ../Tab2.swift; sourceTree = "<group>"; };
 		3BA0BA541AC04A390085138F /* Assn_iphone_Ezgi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assn_iphone_Ezgi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,9 +85,9 @@
 			children = (
 				3BA0BA591AC04A390085138F /* AppDelegate.swift */,
 				3BA0BA5B1AC04A390085138F /* ViewController.swift */,
-				3B9A9F251AC1D7FA00787CE1 /* Page1.swift */,
 				3B9BB3971AC23E5400F02D65 /* Tab1.swift */,
 				3B9BB3991AC243E800F02D65 /* Tab2.swift */,
+				3B9A9F251AC1D7FA00787CE1 /* Tab3.swift */,
 				3BA0BA5D1AC04A390085138F /* Main.storyboard */,
 				3BA0BA601AC04A390085138F /* Images.xcassets */,
 				3BA0BA621AC04A390085138F /* LaunchScreen.xib */,
@@ -225,7 +225,7 @@
 				3B9BB3981AC23E5400F02D65 /* Tab1.swift in Sources */,
 				3BA0BA5A1AC04A390085138F /* AppDelegate.swift in Sources */,
 				3B9BB39A1AC243E800F02D65 /* Tab2.swift in Sources */,
-				3B9A9F261AC1D7FA00787CE1 /* Page1.swift in Sources */,
+				3B9A9F261AC1D7FA00787CE1 /* Tab3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
